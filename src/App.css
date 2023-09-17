@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body{
+  background-color:#eddcd9;
+  height:100%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+
+.app-main{
+  background-color: #ffffff4d;
+  /* Center vertically and horizontally */
+  border: 0.5px solid #e99f4c;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;  
+  border-radius: 5px;
+  width: 60vw;
+  height: 70vh;
+  padding: 2% 7%;
+  box-shadow: rgba(222, 84, 153, 0.401) 0px 10px 50px;
+}
+

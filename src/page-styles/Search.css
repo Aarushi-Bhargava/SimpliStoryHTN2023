@@ -1,0 +1,82 @@
+.message {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70%;
+  background-color: #f2f2f2;
+  padding: 0px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.message label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.message input {
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  border-radius: 3rem;
+  background-color: #f2f2f2;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.circle-button {
+  background-color: #de5499;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-button:hover {
+  background-color: #D43F00;
+}
+
+.circle-button span {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.speech-button {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  background-color: #de5499;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  text-align: right;
+}
+
+.speech-button:hover {
+  background-color: #D43F00;
+}
+
+.robot-bot-left {
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  width: 200px;
+  height:300px;
+}

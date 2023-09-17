@@ -1,0 +1,40 @@
+/* ArticleDisplay.css */
+.article-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 30%;
+  }
+  
+  .article-card {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(222, 84, 153, 0.401) 0px 10px 50px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .right-align {
+    text-align: right;
+  }
+  

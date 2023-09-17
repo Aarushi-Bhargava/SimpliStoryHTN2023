@@ -1,0 +1,23 @@
+h1{
+    text-align:center;
+    font-size:30px;
+}
+
+.newsarticles{
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .three-column-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 20px; /* Adjust the gap between columns */
+  }
+  
+  .column {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
