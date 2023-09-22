@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+**Inspiration 📜**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In today's rapidly changing world, staying informed about current events is more crucial than ever. However, the language and nuances of standard news articles can be complex and difficult for children to comprehend. This often leads to a gap in understanding, leaving our younger generation unaware of the events shaping their world. Enter SimpliStory, where we transform the complexities of today's news into summaries tailored for a child's understanding and comprehension.
 
-## Available Scripts
+**What it does 💻**
 
-In the project directory, you can run:
+-SimpliStory is designed to take a news article and transform it into a child-friendly summary, making the information accessible and comprehensible to young minds. By simplifying the language, eliminating jargon, and focusing on key takeaways, we ensure that children can not only read but also understand the news that impacts their lives.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-In the “Search” tab, the user can input an article link to summarize, equipped with text-to-speech functionality. If they go to the “Latest News” tab, recently published news articles are fetched from the internet and displayed with options to read the full article or to read our child-friendly summary (for the links that allow scraping).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**How we built it ⚙️**
 
-### `npm test`
+SimpliStory was built using various software found through our own research that include:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-For Front-End: CSS, ReactJS
 
-### `npm run build`
+-For Back-End: JavaScript, Cohere API, NewsAPI.org API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-For Website Design Mockup: Figma
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Challenges we ran into 🤔**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+While developing SimpliStory, we encountered a few significant challenges. One major issue was with certain news links that wouldn't allow us to access their text, especially those behind paywalls. Instead of bypassing these barriers, we added error messages to inform users when a particular link was not accessible. For known problematic sites in our "Latest News" section, we simply disabled the "Summarize" feature.
 
-### `npm run eject`
+-Another challenge was the initial design of our scraping tool. It would fetch every piece of text from a website, from menus to alternate image text to ads. We had to apply filters to the fetched content to ensure it only captured the main article content, making it ready for summarization with Cohere. This fine-tuning was crucial to maintain the cohesiveness and quality of our summaries.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Accomplishments that we’re proud of 🎯**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We are very proud of our allocation of tasks across all members of our team, allowing us to complete features quickly and efficiently. Rohan worked primarily on the backend functionality of the features. Aarushi worked on building the UI for the project. Selena created the graphics, in addition to also helping with the frontend. Finally, Edison focused on connecting the backend with the frontend. As a team, we cooperated effectively, and none of us were scared to voice our thoughts on the direction of the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**What we learned 🧠**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool would not be useful if you could not customize it when you are ready for it.
+-Edison: Learned about using LLM with cohere.ai to solve real world problems. 
+-Rohan: Learned how to incorporate APIs to bring a variety of unique features to the project. 
+-Aarushi: Learned how to use React to create a responsive UI and further deepen understanding of API integration. 
+-Selena: Learned CSS used to style the UI.
 
-## Learn More
+**What’s next for SimpliStory 🛤️**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+As we improve SimpliStory, our primary focus remains on ensuring a child-friendly experience. We are in the process of developing filters to exclude content that might not be suitable for young readers. Additionally, in our commitment to delivering unbiased information, we are taking measures to sidestep news from potentially biased outlets. Our overarching aim is to provide young users with straightforward, reliable news from trusted outlets.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Best .Tech Domain Name by Radix**
 
-### Code Splitting
+We registered simplistory.tech as our domain.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Built with 🦾**
 
-### Analyzing the Bundle Size
+ReactJs, CSS, Javascript, Cohere AI API, News API, Figma, Adobe Illustrator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
