@@ -46,5 +46,5 @@ We registered simplistory.tech as our domain.
 
 **Built with 🦾**
 
-ReactJs, CSS, Javascript, Cohere AI API, News API, Figma, Adobe Illustrator
+ReactJs, CSS, Javascript, Cohere AI API, News API, Figma, Adobe Illustrator.
 
